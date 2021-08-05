@@ -15,8 +15,7 @@
   <properties>
     <version.major>1</version.major>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>11</maven.compiler.source>
-    <maven.compiler.target>11</maven.compiler.target>
+    <java.source-target.version>11</java.source-target.version>
   </properties>
 
   <licenses>
@@ -41,16 +40,13 @@
   </scm>
 
   <distributionManagement>
-    <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
     <repository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+      <id>github</id>
+      <name>GitHub wniemiec-util-data Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/wniemiec-util-data/encryptor</url>
     </repository>
   </distributionManagement>
-
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -83,8 +79,14 @@
       </plugin>
 
       <plugin>
+	    <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.0</version>
+		<configuration>
+			<source>${java.source-target.version}</source>
+			<target>${java.source-target.version}</target>
+			<useIncrementalCompilation>false</useIncrementalCompilation>
+		</configuration>
       </plugin>
 
       <plugin>

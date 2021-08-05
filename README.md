@@ -6,7 +6,8 @@
 	<a href="https://github.com/wniemiec-util-data/encryptor/actions/workflows/windows.yml"><img src="https://github.com/wniemiec-util-data/encryptor/actions/workflows/windows.yml/badge.svg" alt=""></a>
 	<a href="https://github.com/wniemiec-util-data/encryptor/actions/workflows/macos.yml"><img src="https://github.com/wniemiec-util-data/encryptor/actions/workflows/macos.yml/badge.svg" alt=""></a>
 	<a href="https://github.com/wniemiec-util-data/encryptor/actions/workflows/ubuntu.yml"><img src="https://github.com/wniemiec-util-data/encryptor/actions/workflows/ubuntu.yml/badge.svg" alt=""></a>
-	<a href="https://reactnative.dev/"><img src="https://img.shields.io/badge/React Native-0.60+-D0008F.svg" alt="React Native compatibility"></a>
+	<a href="https://codecov.io/gh/wniemiec-util-data/encryptor"><img src="https://codecov.io/gh/wniemiec-util-data/encryptor/branch/master/graph/badge.svg?token=R2SFS4SP86" alt="Coverage status"></a>
+	<a href="http://java.oracle.com"><img src="https://img.shields.io/badge/java-12+-D0008F.svg" alt="Java compatibility"></a>
 	<a href="https://github.com/wniemiec-util-data/encryptor/releases"><img src="https://img.shields.io/github/v/release/wniemiec-util-data/encryptor" alt="Release"></a>
 	<a href="https://github.com/wniemiec-util-data/encryptor/blob/master/LICENSE"><img src="https://img.shields.io/github/license/wniemiec-util-data/encryptor" alt="License"></a>
 </p>

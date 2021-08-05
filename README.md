@@ -1,7 +1,7 @@
 ![](https://github.com/wniemiec-util-data/encryptor/blob/master/docs/img/logo/logo.jpg)
 
-<h1 align='center'>MD5</h1>
-<p align='center'>Encrypts texts using MD5.</p>
+<h1 align='center'>Encryptor</h1>
+<p align='center'>Text encryptor.</p>
 <p align="center">
 	<a href="https://github.com/wniemiec-util-data/encryptor/actions/workflows/windows.yml"><img src="https://github.com/wniemiec-util-data/encryptor/actions/workflows/windows.yml/badge.svg" alt=""></a>
 	<a href="https://github.com/wniemiec-util-data/encryptor/actions/workflows/macos.yml"><img src="https://github.com/wniemiec-util-data/encryptor/actions/workflows/macos.yml/badge.svg" alt=""></a>
@@ -13,7 +13,7 @@
 <hr />
 
 ## ❇ Introduction
-Simple MD5 encryptor.
+Encrypts texts in a simple way.
 
 ## ❓ How to use
 1. Add this to pom.xml:

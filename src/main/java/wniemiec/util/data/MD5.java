@@ -1,23 +1,39 @@
-package wniemiec.util.data.encrypt;
+package wniemiec.util.data;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 /**
- * Responsible for encrypting texts using MD5. 
- * 
- * @author		William Niemiec &lt; williamniemiec@hotmail.com &gt;
+ * Responsible for encrypting texts using MD5.
  * 
  * @see			https://en.wikipedia.org/wiki/MD5
  */
-public class MD5 {
+class MD5 implements Encryptor {
+
+	//-------------------------------------------------------------------------
+	//		Attributes
+	//-------------------------------------------------------------------------
+	private static Encryptor instance;
+
 	
 	//-------------------------------------------------------------------------
 	//		Constructor
 	//-------------------------------------------------------------------------
 	private MD5() {
 	}
+
+
+	//-------------------------------------------------------------------------
+	//		Factory
+	//-------------------------------------------------------------------------
+	public static Encryptor getInstance() {
+		if (instance == null)
+			instance = new MD5();
+
+		return instance;
+	}
+
 	
 	//-------------------------------------------------------------------------
 	//		Methods
@@ -31,7 +47,7 @@ public class MD5 {
 	 * 
 	 * @throws		IllegalArgumentException If text is null
 	 */
-	public static String encrypt(String text) {
+	public String encrypt(String text) {
 		if (text == null)
 			throw new IllegalArgumentException("Text cannot be null");
 		

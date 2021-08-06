@@ -25,7 +25,7 @@ Encrypts texts in a simple way.
 <dependency>
   <groupId>io.github.wniemiec-util-data</groupId>
   <artifactId>encryptor</artifactId>
-  <version>1.0.0</version>
+  <version>LATEST</version>
 </dependency>
 ```
 
@@ -34,7 +34,7 @@ Encrypts texts in a simple way.
 <dependency>
   <groupId>wniemiec.util.data</groupId>
   <artifactId>encryptor</artifactId>
-  <version>1.0.0</version>
+  <version>LATEST</version>
 </dependency>
 ```
 

@@ -1,4 +1,4 @@
-package wniemiec.util.data;
+package wniemiec.data.java;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;

@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package wniemiec.util.data;
+package wniemiec.data.java;
 
 /**
  * Responsible for obtaining instances of encrypters.

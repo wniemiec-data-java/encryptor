@@ -1,16 +1,15 @@
-![](https://github.com/wniemiec-util-data/encryptor/blob/master/docs/img/logo/logo.jpg)
+![](https://github.com/wniemiec-data-java/encryptor/blob/master/docs/img/logo/logo.jpg)
 
 <h1 align='center'>Encryptor</h1>
 <p align='center'>Text encryptor.</p>
 <p align="center">
-	<a href="https://github.com/wniemiec-util-data/encryptor/actions/workflows/windows.yml"><img src="https://github.com/wniemiec-util-data/encryptor/actions/workflows/windows.yml/badge.svg" alt=""></a>
-	<a href="https://github.com/wniemiec-util-data/encryptor/actions/workflows/macos.yml"><img src="https://github.com/wniemiec-util-data/encryptor/actions/workflows/macos.yml/badge.svg" alt=""></a>
-	<a href="https://github.com/wniemiec-util-data/encryptor/actions/workflows/ubuntu.yml"><img src="https://github.com/wniemiec-util-data/encryptor/actions/workflows/ubuntu.yml/badge.svg" alt=""></a>
-	<a href="https://codecov.io/gh/wniemiec-util-data/encryptor"><img src="https://codecov.io/gh/wniemiec-util-data/encryptor/branch/master/graph/badge.svg?token=R2SFS4SP86" alt="Coverage status"></a>
+	<a href="https://github.com/wniemiec-data-java/encryptor/actions/workflows/windows.yml"><img src="https://github.com/wniemiec-data-java/encryptor/actions/workflows/windows.yml/badge.svg" alt=""></a>
+	<a href="https://github.com/wniemiec-data-java/encryptor/actions/workflows/macos.yml"><img src="https://github.com/wniemiec-data-java/encryptor/actions/workflows/macos.yml/badge.svg" alt=""></a>
+	<a href="https://github.com/wniemiec-data-java/encryptor/actions/workflows/ubuntu.yml"><img src="https://github.com/wniemiec-data-java/encryptor/actions/workflows/ubuntu.yml/badge.svg" alt=""></a>
+	<a href="https://codecov.io/gh/wniemiec-data-java/encryptor"><img src="https://codecov.io/gh/wniemiec-data-java/encryptor/branch/master/graph/badge.svg?token=R2SFS4SP86" alt="Coverage status"></a>
 	<a href="http://java.oracle.com"><img src="https://img.shields.io/badge/java-11+-D0008F.svg" alt="Java compatibility"></a>
-	<a href="https://github.com/wniemiec-util-data/encryptor/releases"><img src="https://img.shields.io/github/v/release/wniemiec-util-data/encryptor" alt="Release"></a>
-	<a href="https://mvnrepository.com/artifact/io.github.wniemiec-util-data/encryptor"><img src="https://img.shields.io/maven-central/v/io.github.wniemiec-util-data/encryptor" alt="Maven Central release"></a>
-	<a href="https://github.com/wniemiec-util-data/encryptor/blob/master/LICENSE"><img src="https://img.shields.io/github/license/wniemiec-util-data/encryptor" alt="License"></a>
+	<a href="https://mvnrepository.com/artifact/io.github.wniemiec-data-java/encryptor"><img src="https://img.shields.io/maven-central/v/io.github.wniemiec-data-java/encryptor" alt="Maven Central release"></a>
+	<a href="https://github.com/wniemiec-data-java/encryptor/blob/master/LICENSE"><img src="https://img.shields.io/github/license/wniemiec-data-java/encryptor" alt="License"></a>
 </p>
 <hr />
 
@@ -23,7 +22,7 @@ Encrypts texts in a simple way.
 #### Using Maven Central (recomended):
 ```
 <dependency>
-  <groupId>io.github.wniemiec-util-data</groupId>
+  <groupId>io.github.wniemiec-data-java</groupId>
   <artifactId>encryptor</artifactId>
   <version>LATEST</version>
 </dependency>
@@ -32,7 +31,7 @@ Encrypts texts in a simple way.
 #### Using GitHub Packages:
 ```
 <dependency>
-  <groupId>wniemiec.util.data</groupId>
+  <groupId>wniemiec.data.java</groupId>
   <artifactId>encryptor</artifactId>
   <version>LATEST</version>
 </dependency>
@@ -47,8 +46,8 @@ $ mvn install
 ```
 [...]
 
-import wniemiec.util.data.Encryptors;
-import wniemiec.util.data.Encryptor;
+import wniemiec.data.java.Encryptors;
+import wniemiec.data.java.Encryptor;
 
 [...]
 
@@ -63,10 +62,10 @@ System.out.println( md5Encryptor.encrypt("Hello World") );
 |encrypt |`text: String`|Text to be encripted| - |
 
 ## 🚩 Changelog
-Details about each version are documented in the [releases section](https://github.com/williamniemiec/wniemiec-util-data/encryptor/releases).
+Details about each version are documented in the [releases section](https://github.com/williamniemiec/wniemiec-data-java/encryptor/releases).
 
 ## 🤝 Contribute!
-See the documentation on how you can contribute to the project [here](https://github.com/wniemiec-util-data/encryptor/blob/master/CONTRIBUTING.md).
+See the documentation on how you can contribute to the project [here](https://github.com/wniemiec-data-java/encryptor/blob/master/CONTRIBUTING.md).
 
 ## 📁 Files
 

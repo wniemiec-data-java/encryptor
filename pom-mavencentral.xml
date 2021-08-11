@@ -4,13 +4,13 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>io.github.wniemiec-util-data</groupId>
+  <groupId>io.github.wniemiec-data-java</groupId>
   <artifactId>encryptor</artifactId>
   <version>1.0.0</version>
 
   <name>Encryptor</name>
   <description>Encrypts texts.</description>
-  <url>https://github.com/wniemiec-util-data/encryptor</url>
+  <url>https://github.com/wniemiec-data-java/encryptor</url>
 
   <properties>
     <version.major>1</version.major>
@@ -34,9 +34,9 @@
   </developers>
 
   <scm>
-    <connection>scm:git:git@github.com:wniemiec-util-data/encryptor.git</connection>
-    <developerConnection>scm:git:ssh://github.com:wniemiec-util-data/encryptor.git</developerConnection>
-    <url>https://github.com/wniemiec-util-data/encryptor/tree/main</url>
+    <connection>scm:git:git@github.com:wniemiec-data-java/encryptor.git</connection>
+    <developerConnection>scm:git:ssh://github.com:wniemiec-data-java/encryptor.git</developerConnection>
+    <url>https://github.com/wniemiec-data-java/encryptor/tree/main</url>
   </scm>
 
   <distributionManagement>
